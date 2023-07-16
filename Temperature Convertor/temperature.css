@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: "Mulish", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8e7af;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+}
+
+form {
+  background-color: #fab1a0;
+  padding: 80px;
+}
+
+#temp {
+  margin: 20px 5px 20px 20%;
+  height: 34px;
+  font-size: 18px;
+  width: 120px;
+}
+
+#temp_diff {
+  height: 34px;
+  font-size: 18px;
+}
+
+#submit-button {
+  margin-left: 40%;
+  margin-bottom: 16px;
+  width: 90px;
+  font-size: 18px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#resultContainer {
+  margin-left: 36%;
+}
